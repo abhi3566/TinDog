@@ -4,7 +4,7 @@
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 
 }
 
@@ -59,10 +59,14 @@ p{
 .title-img{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 /* Features */
 #features{
     padding: 7% 15%;
+    background-color: #ffffff;
+    position: relative;
 }
 .feature-box{
     text-align: center;
@@ -99,4 +103,22 @@ p{
     width: 15%;
     margin: 20px 20px 50px;
 
+}
+/* Pricing Section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col {
+    padding: 3% 2%;
+} 
+
+@media (max-width:1028 px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
 }
